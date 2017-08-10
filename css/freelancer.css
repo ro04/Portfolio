@@ -68,7 +68,11 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: url("../img/greenscreen.gif")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white;
 }
 header .container {
@@ -81,7 +85,8 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Lobster', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -103,7 +108,10 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  /*background: #2C3E50;*/
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -153,6 +161,15 @@ header .intro-text .skills {
   color: white;
   border-color: #18BC9C;
 }
+
+/*------------*/
+.navbar-header {
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+  
+}
+
+/*------------*/
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
@@ -507,7 +524,7 @@ fieldset[disabled] .btn-success.active {
   position: absolute;
   left: 0px;
   top: 0px;
-  /*background: #18BC9C;*/
+  background: #18BC9C;
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }

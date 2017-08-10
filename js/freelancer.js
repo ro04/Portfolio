@@ -30,6 +30,13 @@
         }
     })
 
+    // Theme JavaScript 
+    $(".intro-text .skills").textillate({
+        in:{effect: 'rollIn', sequence: true, delay: 40},
+        out: {effect: 'hinge', reverse: true, delay: 100},
+        loop: true
+    });
+
     // Floating label headings for the contact form
     $(function() {
         $("body").on("input propertychange", ".floating-label-form-group", function(e) {
