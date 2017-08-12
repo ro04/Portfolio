@@ -531,3 +531,28 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+.carousel {
+  width: 600px;
+  height: 350px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+
+.carousel-inner .item {
+  width: 600px;
+  height: 350px;
+}
+
+.carousel img {
+  position: absolute;
+  display: block;
+  width: 600px;
+  height: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  object-fit: contain;
+}
+
