@@ -85,7 +85,6 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: 'Lobster', cursive;
   text-transform: uppercase;
   font-weight: 700;
@@ -94,6 +93,10 @@ header .intro-text .name {
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+  color: #78edd6;
+}
+header #quote {
+   color: #78edd6;
 }
 @media (min-width: 768px) {
   header .container {
@@ -555,4 +558,100 @@ div#maincontent {
   padding-right: 30px;
   object-fit: contain;
 }
+@media (max-width: 640px) {
+  .carousel {
+    width: 600px;
+    height: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .carousel img {
+    position: absolute;
+    display: block;
+    width: 600px;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    object-fit: contain;
+  }
+
+}
+
+
+
+@media (max-width: 640){
+  .carousel {
+    width: 400px;
+    height: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .carousel img {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    object-fit: contain;
+  }
+  .carousel img {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    object-fit: contain;
+  }
+
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .carousel {
+    width: 600px;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .carousel img {
+    position: absolute;
+    display: block;
+    width: 600px;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    object-fit: contain;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .carousel {
+    width: 600px;
+    height: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .carousel img {
+    position: absolute;
+    display: block;
+    width: 600px;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    object-fit: contain;
+  }
+
+}
+
 
