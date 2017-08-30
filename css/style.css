@@ -1,0 +1,58 @@
+/* HEADER
+============================================================================= */
+#header                         { margin-bottom:50px; }
+
+/* logo 
+============================================================================= */
+
+#logo                       { 
+                                color: #66ff33; 
+                                font-family: 'Shrikhand';
+                                font-size:80px; 
+                                margin-bottom:50px; 
+                                margin-top:50px; 
+                            }
+#logo span                  { display:inline-block; }
+
+/* ANIMATIONS
+============================================================================= */
+
+/* logo */
+.N                         { animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s; }
+.e                         { animation-delay:0.8s; -moz-animation-delay:0.8s; -webkit-animation-delay:0.8s; }
+.r                         { animation-delay:0.6s; -moz-animation-delay:0.6s; -webkit-animation-delay:0.6s; }
+.d                         { animation-delay:1s;   -moz-animation-delay:1s;   -webkit-animation-delay:1s; }
+.D                         { animation-delay:0.4s; -moz-animation-delay:0.4s; -webkit-animation-delay:0.4s; }
+.s                         { animation-delay:1.2s; -moz-animation-delay:1.2s; -webkit-animation-delay:1.2s; }
+.i                         { animation-delay:1.4s; -moz-animation-delay:1.4s; -webkit-animation-delay:1.4s; }
+.dd                        { animation-delay:0.4s; -moz-animation-delay:0.4s; -webkit-animation-delay:0.4s; }
+.e                         { animation-delay:0.5s; -moz-animation-delay:0.5s; -webkit-animation-delay:0.5s; }
+
+
+/* CONTACT
+=============================================================================== */
+#contact {
+    background: #E76E34;
+}
+
+
+.panel-body {
+    background:#2C3E50;
+}
+
+.panel-body > h3 {
+    font-family: Chewy, cursive;
+    text-align: center;
+    text-transform: lowercase;
+    /* color: #66ff33; */
+    color: white;
+}
+
+/* PORTFOLIO
+================================================================================ */
+#portfolio {
+    /* background:#ff33cc;  */
+    /* background: #cc0099; */
+    /* background: #cfd8dc; */
+    background: #8DC63F;
+}

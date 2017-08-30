@@ -13,6 +13,10 @@ p {
 p.small {
   font-size: 16px;
 }
+p.modal-paragraph {
+  font-size: 20px;
+  text-align: justify;
+}
 a,
 a:hover,
 a:focus,
@@ -89,6 +93,7 @@ header .intro-text .name {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
+  color: white;
 }
 header .intro-text .skills {
   font-size: 1.25em;
@@ -534,124 +539,4 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
-
-.carousel {
-  width: 600px;
-  height: 350px;
-  margin-left: 300px;
-  margin-right: 300px;
-}
-
-
-.carousel-inner .item {
-  width: 600px;
-  height: 350px;
-}
-
-.carousel img {
-  position: absolute;
-  display: block;
-  width: 600px;
-  height: 350px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 30px;
-  object-fit: contain;
-}
-@media (max-width: 640px) {
-  .carousel {
-    width: 600px;
-    height: 350px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .carousel img {
-    position: absolute;
-    display: block;
-    width: 600px;
-    height: 350px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 200px;
-    object-fit: contain;
-  }
-
-}
-
-
-
-@media (max-width: 640){
-  .carousel {
-    width: 400px;
-    height: 350px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .carousel img {
-    position: absolute;
-    display: block;
-    width: 400px;
-    height: 350px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    object-fit: contain;
-  }
-  .carousel img {
-    position: absolute;
-    display: block;
-    width: 400px;
-    height: 350px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 200px;
-    object-fit: contain;
-  }
-
-}
-
-@media (min-width: 641px) and (max-width: 768px) {
-  .carousel {
-    width: 600px;
-    height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-
-  .carousel img {
-    position: absolute;
-    display: block;
-    width: 600px;
-    height: 350px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    object-fit: contain;
-  }
-
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .carousel {
-    width: 600px;
-    height: 350px;
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-
-  .carousel img {
-    position: absolute;
-    display: block;
-    width: 600px;
-    height: 350px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    object-fit: contain;
-  }
-
-}
-
 
